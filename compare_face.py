@@ -38,8 +38,8 @@ def detect_text(self):
     else:
         return texts
 def main():
-    source_file = 'media/suyambu.jpg'
-    target_file = 'media/PANCARD-page-001.jpg'
+    source_file = 'media/source.jpg'
+    target_file = 'media/target.jpg'
     face_matches = compare_faces(source_file, target_file)
     print("Face matches: " + str(face_matches))
 
